@@ -666,7 +666,7 @@ var notify = function(message, title = 'Evento') {
         type: 'basic',
         title: title,
         message: message,
-        iconUrl: '../../icons/bell.png', // icon image from Glyphish 3 http://www.glyphish.com
+        iconUrl: '../../icons/bell.jpg',
     }
     chrome.notifications.create(notificationId, option, function(notificationId) {
         var mySong = new Audio('../../songs/alarm.mp3');
@@ -680,12 +680,12 @@ var startTimer = function() {
 
         var targetEvent = getEvent(now.getHours(), now.getMinutes() + 10, now.getDay());
         if (targetEvent) {
-            notify(targetEvent.message, targetEvent.title  + ' em 10min!');
+            notify(targetEvent.message, targetEvent.title  + ' EM 10MIN!');
         }
 
         var targetEvent = getEvent(now.getHours(), now.getMinutes() + 5, now.getDay());
         if (targetEvent) {
-            notify(targetEvent.message, targetEvent.title  + ' em 5min!');
+            notify(targetEvent.message, targetEvent.title  + ' EM 5MIN!');
         }
 
     }, interval);
