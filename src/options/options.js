@@ -5,6 +5,9 @@ $(document).ready(function() {
 
 		if (r.atualizado === undefined) {
 			storage.set({
+				horarioVerao: false,
+				ativarSom: false,
+				pcBrasilia: false,
 				megaDrop: true,
 				bloodCastle: true,
 				chaosCastle: true,
@@ -36,6 +39,9 @@ $(document).ready(function() {
 		var storage = chrome.storage.sync;
 
 		storage.set({
+			horarioVerao: $("#horarioVerao").val(),
+			pcBrasilia: $("#pcBrasilia").val(),
+			ativarSom: $("#ativarSom").val(),
 			megaDrop: $("#megaDrop").val(),
 			bloodCastle: $("#bloodCastle").val(),
 			chaosCastle: $("#chaosCastle").val(),

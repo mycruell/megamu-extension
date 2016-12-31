@@ -64,3 +64,8 @@ body {
 .message {
 	display: none;
 }
+
+.modulo p {
+	display: block;
+	width: 100%;
+}
