@@ -1,9 +1,324 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Configurações</title>
+	<link rel="stylesheet" href="options.css">
 </head>
 <body>
+	<p class="message">ALTERAÇÕES SALVAS COM SUCESSO</p>
 
+	<div class="modulo">
+		<h1 id="testando">GERAL</h1>
+		
+		<ul>
+			<li>
+				<label for="">Horário de verão?</label>
+				<select name="" id="horarioVerao">
+					<option value="false">Não</option>
+					<option value="true">Sim</option>
+				</select>
+			</li>
+		</ul>	
+	</div>
+
+	<div class="modulo">
+		<h1>EVENTOS</h1>
+
+		<ul class="select-events">
+			<li>
+				<label for="">Megadrop</label>
+				<select name="" id="megaDrop">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Blood Castle</label>
+				<select name="" id="bloodCastle">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Chaos Castle</label>
+				<select name="" id="chaosCastle">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Moss Merchant</label>
+				<select name="" id="mossMerchant">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Skeleton King</label>
+				<select name="" id="skeletonKing">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Red Dragon</label>
+				<select name="" id="redDragon">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">White Wizard</label>
+				<select name="" id="whiteWizard">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Dragão Dourado</label>
+				<select name="" id="dragaoDourado">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Moon Rabbit</label>
+				<select name="" id="moonRabbit">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Demons</label>
+				<select name="" id="demons">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Kundun</label>
+				<select name="" id="kundun">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Erohin</label>
+				<select name="" id="erohin">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Medusa</label>
+				<select name="" id="medusa">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Crywolf</label>
+				<select name="" id="crywolf">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Selupan</label>
+				<select name="" id="selupan">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Tesouro de loren</label>
+				<select name="" id="tesouroLoren">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Tesouro de dung</label>
+				<select name="" id="tesouroDung">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Ataque zumbi</label>
+				<select name="" id="ataqueZumbi">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Invocação de boss</label>
+				<select name="" id="invocacaoDeBoss">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="">Castle siege</label>
+				<select name="" id="castleSiege">
+					<option value="true">Ativado</option>
+					<option value="false">Desativado</option>
+				</select>
+			</li>
+		</ul>
+	</div>
+
+	<div class="modulo">
+		<button id="btn-salvar">SALVAR ALTERAÇÕES</button>
+	</div>
+
+	<!-- <div class="modulo">
+		<h1>EVENTOS</h1>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+
+			<li>
+				<input type="checkbox" id="megadrop">
+				<span>MEGADROP</span>
+			</li>
+		</ul>
+	</div>
+	 -->
+	<script src="jquery.min.js"></script>
+	<script src="options.js"></script>
 </body>
 </html>

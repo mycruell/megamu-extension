@@ -1,0 +1,66 @@
+body {
+	background: rgba(8,3,37,.9);
+	color: #fff;
+}
+
+.modulo {
+	width: 100%;
+	display: block;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.modulo label {
+	display: block;
+}
+
+.modulo select {
+	width: 100%;
+}
+
+.modulo .select-events select {
+	width: 95%;
+}
+
+.modulo h1 {
+	padding: 20px;
+	background: rgba(255,255,255,.1);
+	margin-bottom: 10px;
+}
+
+.modulo ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.modulo li {
+	width: 50%;
+	float: left;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.modulo li span {
+	float: left;
+	margin-top: -3px;
+}
+
+.modulo li input {
+	float: left;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+#btn-salvar {
+	width: 100%;
+	padding: 20px;
+	background: #2BD964;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+}
+
+.message {
+	display: none;
+}
