@@ -5,7 +5,6 @@ $(document).ready(function() {
 
 		if (r.atualizado === undefined) {
 			storage.set({
-				horarioVerao: true,
 				megaDrop: true,
 				bloodCastle: true,
 				chaosCastle: true,
@@ -37,7 +36,6 @@ $(document).ready(function() {
 		var storage = chrome.storage.sync;
 
 		storage.set({
-			horarioVerao: $("#horarioVerao").val(),
 			megaDrop: $("#megaDrop").val(),
 			bloodCastle: $("#bloodCastle").val(),
 			chaosCastle: $("#chaosCastle").val(),
