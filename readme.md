@@ -11,6 +11,8 @@ Extensão para ajudar a ficar ligado quando estiver próximo de começar algum e
 5. Clique em carregar extensão expandida e selecione a pasta que você acabou de descompactar;
 6. Agora é só configurar do do seu jeito, clicando no icone do megamu, ou em opções;
 
+![Tutorial](http://ap.imagensbrasil.org/images/2016/12/31/tutor1.jpg)
+
 **OBS:** essa extensão eu fiz para meu uso, mas como a galera do whats quis, eu disponibilizei aqui,
 lembrando que podem ter bugs e caso os achem, podem abrir uma [ISSUE](https://github.com/mycruell/megamu-extension/issues) pra mim, assim que tiver
 um tempinho vou melhorando.
